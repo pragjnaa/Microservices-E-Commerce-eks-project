@@ -7,3 +7,4 @@ output "bucket2_id" {
   description = "ID of the second S3 bucket"
   value       = aws_s3_bucket.bucket2.id
 }
+
