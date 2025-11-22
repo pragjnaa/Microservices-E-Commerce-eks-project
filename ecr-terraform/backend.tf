@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "aluruarumullaa1"
+    bucket = "pragjna-bucket-246"
     key    = "ecr/terraform.tfstate"
     region = "us-east-1"
   }
